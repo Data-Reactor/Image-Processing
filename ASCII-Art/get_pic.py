@@ -22,8 +22,13 @@ def get_char(pixel):
 
 from PIL import Image
 import numpy as np
+import sys
 
-im = Image.open('test.jpg').convert('L')
+if len(sys.argv) != 2:
+    print('Wrong number of arguments.')
+    sys.exit(0)
+
+im = Image.open(open(sys.argv[1], 'rb')).convert('L')
 width_new = 65
 rows, cols = im.size
 
