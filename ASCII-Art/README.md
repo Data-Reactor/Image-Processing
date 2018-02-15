@@ -7,6 +7,7 @@
 
 ---
 
+Run `python3 get_pic.py test.jpg 41`, we can get:
 
 ```
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
