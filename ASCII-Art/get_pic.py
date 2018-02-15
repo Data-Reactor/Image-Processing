@@ -24,12 +24,12 @@ from PIL import Image
 import numpy as np
 import sys
 
-if len(sys.argv) != 2:
+if len(sys.argv) != 3:
     print('Wrong number of arguments.')
     sys.exit(0)
 
 im = Image.open(open(sys.argv[1], 'rb')).convert('L')
-width_new = 65
+width_new = int(sys.argv[2])
 rows, cols = im.size
 
 height_new = int(cols * width_new / rows)
