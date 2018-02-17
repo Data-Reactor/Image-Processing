@@ -6,3 +6,6 @@
 ## 遮罩图片生成词云
 [Word-Cloud](Word-Cloud/README.md)
 
+## 图像分割
+[Img-Segmentation](Img-Segmentation/README.md)
+
