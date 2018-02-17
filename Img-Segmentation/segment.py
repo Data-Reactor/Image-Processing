@@ -18,8 +18,6 @@ else:
     pixel1 = [1, 1, 1]
     pixel2 = [0, 0, 0]
 
-
-
 for i in np.array(L_im).flat:
     if i > means:
         new_im.append(pixel1)
